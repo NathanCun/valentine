@@ -4,21 +4,17 @@ const pageThree = document.getElementById('page-three');
 const pageFour = document.getElementById('page-four');
 const pageFive = document.getElementById('page-five');
 function one() {
-    pageOne.style.display= 'none';
+    pageTwo.scrollIntoView();
 }
 
 function two() {
-    pageTwo.style.display= 'none';
+    pageThree.scrollIntoView();
 }
 
 function three() {
-    pageThree.style.display= 'none';
+    pageFour.scrollIntoView();
 }
 
 function four() {
-    pageFour.style.display= 'none';
-}
-
-function five() {
-    pageFive.style.display= 'none';
+    pageFive.scrollIntoView();
 }
